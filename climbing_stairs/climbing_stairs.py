@@ -23,6 +23,8 @@ def climbing_stairs(n):
     return len([sum(j) for j in extracted_list if sum(j) == n])
 
 
+print(climbing_stairs(15))
+
 if __name__ == "__main__":
     # Test out your implementation from the command line
     # with `python climbing_stairs.py [n]` with different n values
